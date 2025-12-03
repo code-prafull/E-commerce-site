@@ -4,7 +4,7 @@ export const authDataContext= createContext()
 
 function AuthContext({children}) {
     console.log("Initializing AuthContext");
-    let serverUrl = "http://localhost:8000"
+    let serverUrl = "https://e-commerce-site-bscc.onrender.com"
     console.log("Server URL set to:", serverUrl);
 
     let value = {
