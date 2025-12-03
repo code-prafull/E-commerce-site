@@ -30,7 +30,7 @@ app.use(cookieParser())
 
 // Enhanced CORS configuration for Google login
 app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:5174", "https://goggleloginmysha.firebaseapp.com"],
+  origin: ["http://localhost:5173", "http://localhost:5174", "https://e-commerce-site-e2ie.onrender.com"],
   credentials: true,
   exposedHeaders: ['set-cookie'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
