@@ -12,7 +12,7 @@ import { MdContacts } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import axios from 'axios';
-import { authDataContext } from '../context/AuthContext';
+import { authDataContext } from '../context/authContext';
 import { shopDataContext } from '../context/ShopContext';
 import logo11 from '../assets/LOGO11.png'
 
